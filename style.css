@@ -1,0 +1,73 @@
+/* Fit screen penuh 1080x1920 */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d1b2a; /* Dark theme */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #1b263b;
+  padding: 2rem;
+  border-radius: 20px; /* Rounded shape */
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+input, button {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+
+input {
+  background: #415a77;
+  color: #fff;
+  text-align: center;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  background: #e0aaff;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.reset {
+  background: #ff6b6b;
+  color: #fff;
+}
+
+.result, .cadangan {
+  margin-top: 1rem;
+  background: #778da9;
+  padding: 1rem;
+  border-radius: 12px;
+  color: #000;
+  text-align: left;
+}
